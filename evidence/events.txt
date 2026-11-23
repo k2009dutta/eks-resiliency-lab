@@ -1,0 +1,135 @@
+LAST SEEN   TYPE      REASON                    OBJECT                                            MESSAGE
+18m         Normal    Starting                  node/ip-10-0-11-229.ap-south-1.compute.internal   
+51m         Normal    Starting                  node/ip-10-0-12-153.ap-south-1.compute.internal   
+51m         Normal    Starting                  node/ip-10-0-11-22.ap-south-1.compute.internal    
+52m         Normal    Starting                  node/ip-10-0-12-153.ap-south-1.compute.internal   Starting kubelet.
+52m         Warning   InvalidDiskCapacity       node/ip-10-0-12-153.ap-south-1.compute.internal   invalid capacity 0 on image filesystem
+52m         Normal    NodeHasSufficientMemory   node/ip-10-0-12-153.ap-south-1.compute.internal   Node ip-10-0-12-153.ap-south-1.compute.internal status is now: NodeHasSufficientMemory
+52m         Normal    NodeHasNoDiskPressure     node/ip-10-0-12-153.ap-south-1.compute.internal   Node ip-10-0-12-153.ap-south-1.compute.internal status is now: NodeHasNoDiskPressure
+52m         Normal    NodeHasSufficientPID      node/ip-10-0-12-153.ap-south-1.compute.internal   Node ip-10-0-12-153.ap-south-1.compute.internal status is now: NodeHasSufficientPID
+52m         Normal    NodeAllocatableEnforced   node/ip-10-0-12-153.ap-south-1.compute.internal   Updated Node Allocatable limit across pods
+52m         Normal    Synced                    node/ip-10-0-12-153.ap-south-1.compute.internal   Node synced successfully
+52m         Normal    Starting                  node/ip-10-0-11-22.ap-south-1.compute.internal    Starting kubelet.
+52m         Warning   InvalidDiskCapacity       node/ip-10-0-11-22.ap-south-1.compute.internal    invalid capacity 0 on image filesystem
+52m         Normal    NodeAllocatableEnforced   node/ip-10-0-11-22.ap-south-1.compute.internal    Updated Node Allocatable limit across pods
+52m         Normal    NodeHasSufficientPID      node/ip-10-0-11-22.ap-south-1.compute.internal    Node ip-10-0-11-22.ap-south-1.compute.internal status is now: NodeHasSufficientPID
+52m         Normal    NodeHasNoDiskPressure     node/ip-10-0-11-22.ap-south-1.compute.internal    Node ip-10-0-11-22.ap-south-1.compute.internal status is now: NodeHasNoDiskPressure
+52m         Normal    NodeHasSufficientMemory   node/ip-10-0-11-22.ap-south-1.compute.internal    Node ip-10-0-11-22.ap-south-1.compute.internal status is now: NodeHasSufficientMemory
+52m         Normal    RegisteredNode            node/ip-10-0-12-153.ap-south-1.compute.internal   Node ip-10-0-12-153.ap-south-1.compute.internal event: Registered Node ip-10-0-12-153.ap-south-1.compute.internal in Controller
+52m         Normal    Synced                    node/ip-10-0-11-22.ap-south-1.compute.internal    Node synced successfully
+52m         Normal    NodeReady                 node/ip-10-0-12-153.ap-south-1.compute.internal   Node ip-10-0-12-153.ap-south-1.compute.internal status is now: NodeReady
+52m         Normal    RegisteredNode            node/ip-10-0-11-22.ap-south-1.compute.internal    Node ip-10-0-11-22.ap-south-1.compute.internal event: Registered Node ip-10-0-11-22.ap-south-1.compute.internal in Controller
+52m         Normal    NodeReady                 node/ip-10-0-11-22.ap-south-1.compute.internal    Node ip-10-0-11-22.ap-south-1.compute.internal status is now: NodeReady
+44m         Normal    SuccessfulCreate          replicaset/resilience-app-6f6f548b44              Created pod: resilience-app-6f6f548b44-p9j5z
+44m         Normal    Scheduled                 pod/resilience-app-6f6f548b44-p9j5z               Successfully assigned default/resilience-app-6f6f548b44-p9j5z to ip-10-0-12-153.ap-south-1.compute.internal
+44m         Normal    ScalingReplicaSet         deployment/resilience-app                         Scaled up replica set resilience-app-6f6f548b44 from 0 to 2
+44m         Normal    Scheduled                 pod/resilience-app-6f6f548b44-2hlzr               Successfully assigned default/resilience-app-6f6f548b44-2hlzr to ip-10-0-11-22.ap-south-1.compute.internal
+44m         Normal    SuccessfulCreate          replicaset/resilience-app-6f6f548b44              Created pod: resilience-app-6f6f548b44-2hlzr
+44m         Normal    Pulling                   pod/resilience-app-6f6f548b44-2hlzr               Pulling image "nginx:1.27-alpine"
+44m         Normal    Pulling                   pod/resilience-app-6f6f548b44-p9j5z               Pulling image "nginx:1.27-alpine"
+44m         Normal    Pulled                    pod/resilience-app-6f6f548b44-p9j5z               Successfully pulled image "nginx:1.27-alpine" in 4.598s (4.598s including waiting). Image size: 20984244 bytes.
+44m         Normal    Started                   pod/resilience-app-6f6f548b44-2hlzr               Started container nginx
+44m         Normal    Created                   pod/resilience-app-6f6f548b44-p9j5z               Created container: nginx
+44m         Normal    Started                   pod/resilience-app-6f6f548b44-p9j5z               Started container nginx
+44m         Normal    Created                   pod/resilience-app-6f6f548b44-2hlzr               Created container: nginx
+44m         Normal    Pulled                    pod/resilience-app-6f6f548b44-2hlzr               Successfully pulled image "nginx:1.27-alpine" in 4.462s (4.462s including waiting). Image size: 20984244 bytes.
+41m         Normal    Scheduled                 pod/resilience-app-6f6f548b44-p2nk6               Successfully assigned default/resilience-app-6f6f548b44-p2nk6 to ip-10-0-11-22.ap-south-1.compute.internal
+41m         Normal    Killing                   pod/resilience-app-6f6f548b44-2hlzr               Stopping container nginx
+41m         Normal    SuccessfulCreate          replicaset/resilience-app-6f6f548b44              Created pod: resilience-app-6f6f548b44-p2nk6
+41m         Normal    Started                   pod/resilience-app-6f6f548b44-p2nk6               Started container nginx
+41m         Normal    Pulled                    pod/resilience-app-6f6f548b44-p2nk6               Container image "nginx:1.27-alpine" already present on machine
+41m         Normal    Created                   pod/resilience-app-6f6f548b44-p2nk6               Created container: nginx
+40m         Normal    Pulling                   pod/resilience-monitor                            Pulling image "curlimages/curl:8.12.1"
+40m         Normal    Scheduled                 pod/resilience-monitor                            Successfully assigned default/resilience-monitor to ip-10-0-11-22.ap-south-1.compute.internal
+40m         Normal    Pulled                    pod/resilience-monitor                            Successfully pulled image "curlimages/curl:8.12.1" in 4.152s (4.152s including waiting). Image size: 12434447 bytes.
+40m         Normal    Created                   pod/resilience-monitor                            Created container: resilience-monitor
+40m         Normal    Started                   pod/resilience-monitor                            Started container resilience-monitor
+24m         Normal    Killing                   pod/resilience-monitor                            Stopping container resilience-monitor
+24m         Normal    Scheduled                 pod/resilience-monitor                            Successfully assigned default/resilience-monitor to ip-10-0-12-153.ap-south-1.compute.internal
+24m         Normal    Pulling                   pod/resilience-monitor                            Pulling image "curlimages/curl:8.12.1"
+24m         Normal    Pulled                    pod/resilience-monitor                            Successfully pulled image "curlimages/curl:8.12.1" in 4.046s (4.046s including waiting). Image size: 12434447 bytes.
+24m         Normal    Created                   pod/resilience-monitor                            Created container: resilience-monitor
+24m         Normal    Started                   pod/resilience-monitor                            Started container resilience-monitor
+19m         Warning   NodeNotReady              pod/resilience-app-6f6f548b44-p2nk6               Node is not ready
+19m         Normal    NodeNotReady              node/ip-10-0-11-22.ap-south-1.compute.internal    Node ip-10-0-11-22.ap-south-1.compute.internal status is now: NodeNotReady
+19m         Normal    DeletingNode              node/ip-10-0-11-22.ap-south-1.compute.internal    Deleting node ip-10-0-11-22.ap-south-1.compute.internal because it does not exist in the cloud provider
+19m         Normal    RemovingNode              node/ip-10-0-11-22.ap-south-1.compute.internal    Node ip-10-0-11-22.ap-south-1.compute.internal event: Removing Node ip-10-0-11-22.ap-south-1.compute.internal from Controller
+18m         Normal    Scheduled                 pod/resilience-app-6f6f548b44-wrpgz               Successfully assigned default/resilience-app-6f6f548b44-wrpgz to ip-10-0-12-153.ap-south-1.compute.internal
+18m         Normal    SuccessfulCreate          replicaset/resilience-app-6f6f548b44              Created pod: resilience-app-6f6f548b44-wrpgz
+18m         Normal    Pulled                    pod/resilience-app-6f6f548b44-wrpgz               Container image "nginx:1.27-alpine" already present on machine
+18m         Normal    Started                   pod/resilience-app-6f6f548b44-wrpgz               Started container nginx
+18m         Normal    Created                   pod/resilience-app-6f6f548b44-wrpgz               Created container: nginx
+18m         Normal    NodeHasSufficientPID      node/ip-10-0-11-229.ap-south-1.compute.internal   Node ip-10-0-11-229.ap-south-1.compute.internal status is now: NodeHasSufficientPID
+18m         Normal    Starting                  node/ip-10-0-11-229.ap-south-1.compute.internal   Starting kubelet.
+18m         Normal    NodeAllocatableEnforced   node/ip-10-0-11-229.ap-south-1.compute.internal   Updated Node Allocatable limit across pods
+18m         Warning   InvalidDiskCapacity       node/ip-10-0-11-229.ap-south-1.compute.internal   invalid capacity 0 on image filesystem
+18m         Normal    NodeHasNoDiskPressure     node/ip-10-0-11-229.ap-south-1.compute.internal   Node ip-10-0-11-229.ap-south-1.compute.internal status is now: NodeHasNoDiskPressure
+18m         Normal    NodeHasSufficientMemory   node/ip-10-0-11-229.ap-south-1.compute.internal   Node ip-10-0-11-229.ap-south-1.compute.internal status is now: NodeHasSufficientMemory
+18m         Normal    Synced                    node/ip-10-0-11-229.ap-south-1.compute.internal   Node synced successfully
+18m         Normal    RegisteredNode            node/ip-10-0-11-229.ap-south-1.compute.internal   Node ip-10-0-11-229.ap-south-1.compute.internal event: Registered Node ip-10-0-11-229.ap-south-1.compute.internal in Controller
+18m         Normal    NodeReady                 node/ip-10-0-11-229.ap-south-1.compute.internal   Node ip-10-0-11-229.ap-south-1.compute.internal status is now: NodeReady
+15m         Normal    SuccessfulCreate          replicaset/resilience-app-68dc985f47              Created pod: resilience-app-68dc985f47-ddb7t
+15m         Normal    Scheduled                 pod/resilience-app-68dc985f47-ddb7t               Successfully assigned default/resilience-app-68dc985f47-ddb7t to ip-10-0-11-229.ap-south-1.compute.internal
+15m         Normal    ScalingReplicaSet         deployment/resilience-app                         Scaled up replica set resilience-app-68dc985f47 from 0 to 1
+15m         Normal    Pulling                   pod/resilience-app-68dc985f47-ddb7t               Pulling image "nginx:1.27-alpine"
+15m         Normal    Pulled                    pod/resilience-app-68dc985f47-ddb7t               Successfully pulled image "nginx:1.27-alpine" in 4.41s (4.411s including waiting). Image size: 20984244 bytes.
+15m         Normal    Created                   pod/resilience-app-68dc985f47-ddb7t               Created container: nginx
+15m         Normal    Started                   pod/resilience-app-68dc985f47-ddb7t               Started container nginx
+15m         Normal    Scheduled                 pod/resilience-app-68dc985f47-cxcc4               Successfully assigned default/resilience-app-68dc985f47-cxcc4 to ip-10-0-11-229.ap-south-1.compute.internal
+15m         Normal    SuccessfulDelete          replicaset/resilience-app-6f6f548b44              Deleted pod: resilience-app-6f6f548b44-wrpgz
+15m         Normal    SuccessfulCreate          replicaset/resilience-app-68dc985f47              Created pod: resilience-app-68dc985f47-cxcc4
+15m         Normal    ScalingReplicaSet         deployment/resilience-app                         Scaled up replica set resilience-app-68dc985f47 from 1 to 2
+15m         Normal    ScalingReplicaSet         deployment/resilience-app                         Scaled down replica set resilience-app-6f6f548b44 from 2 to 1
+15m         Normal    Killing                   pod/resilience-app-6f6f548b44-wrpgz               Stopping container nginx
+15m         Warning   Unhealthy                 pod/resilience-app-6f6f548b44-wrpgz               Readiness probe failed: Get "http://10.0.12.32:80/": dial tcp 10.0.12.32:80: connect: connection refused
+15m         Normal    Started                   pod/resilience-app-68dc985f47-cxcc4               Started container nginx
+15m         Normal    Created                   pod/resilience-app-68dc985f47-cxcc4               Created container: nginx
+15m         Normal    Pulled                    pod/resilience-app-68dc985f47-cxcc4               Container image "nginx:1.27-alpine" already present on machine
+15m         Normal    ScalingReplicaSet         deployment/resilience-app                         Scaled down replica set resilience-app-6f6f548b44 from 1 to 0
+15m         Normal    SuccessfulDelete          replicaset/resilience-app-6f6f548b44              Deleted pod: resilience-app-6f6f548b44-p9j5z
+15m         Normal    Killing                   pod/resilience-app-6f6f548b44-p9j5z               Stopping container nginx
+9m59s       Normal    NodeNotSchedulable        node/ip-10-0-11-229.ap-south-1.compute.internal   Node ip-10-0-11-229.ap-south-1.compute.internal status is now: NodeNotSchedulable
+9m55s       Normal    Killing                   pod/resilience-app-68dc985f47-ddb7t               Stopping container nginx
+9m55s       Normal    SuccessfulCreate          replicaset/resilience-app-68dc985f47              Created pod: resilience-app-68dc985f47-spnwf
+9m55s       Warning   Unhealthy                 pod/resilience-app-68dc985f47-cxcc4               Readiness probe failed: Get "http://10.0.11.176:80/": dial tcp 10.0.11.176:80: connect: connection refused
+9m55s       Normal    Scheduled                 pod/resilience-app-68dc985f47-5lhrh               Successfully assigned default/resilience-app-68dc985f47-5lhrh to ip-10-0-12-153.ap-south-1.compute.internal
+9m55s       Normal    Killing                   pod/resilience-app-68dc985f47-cxcc4               Stopping container nginx
+9m55s       Normal    SuccessfulCreate          replicaset/resilience-app-68dc985f47              Created pod: resilience-app-68dc985f47-5lhrh
+9m54s       Normal    Pulled                    pod/resilience-app-68dc985f47-5lhrh               Container image "nginx:1.27-alpine" already present on machine
+9m54s       Normal    Started                   pod/resilience-app-68dc985f47-5lhrh               Started container nginx
+9m54s       Normal    Created                   pod/resilience-app-68dc985f47-5lhrh               Created container: nginx
+6m34s       Warning   FailedScheduling          pod/resilience-app-68dc985f47-spnwf               0/2 nodes are available: 1 node(s) didn't match pod topology spread constraints, 1 node(s) were unschedulable. preemption: 0/2 nodes are available: 1 No preemption victims found for incoming pod, 1 Preemption is not helpful for scheduling.
+6m34s       Normal    Scheduled                 pod/resilience-app-556dd99748-fgdk2               Successfully assigned default/resilience-app-556dd99748-fgdk2 to ip-10-0-12-153.ap-south-1.compute.internal
+6m34s       Normal    ScalingReplicaSet         deployment/resilience-app                         Scaled up replica set resilience-app-556dd99748 from 0 to 1
+6m34s       Normal    SuccessfulCreate          replicaset/resilience-app-556dd99748              Created pod: resilience-app-556dd99748-fgdk2
+6m34s       Normal    Started                   pod/resilience-app-556dd99748-fgdk2               Started container nginx
+6m34s       Normal    Created                   pod/resilience-app-556dd99748-fgdk2               Created container: nginx
+6m34s       Normal    Pulled                    pod/resilience-app-556dd99748-fgdk2               Container image "nginx:1.27-alpine" already present on machine
+6m32s       Normal    Scheduled                 pod/resilience-app-556dd99748-vvcbg               Successfully assigned default/resilience-app-556dd99748-vvcbg to ip-10-0-12-153.ap-south-1.compute.internal
+6m32s       Normal    ScalingReplicaSet         deployment/resilience-app                         Scaled down replica set resilience-app-68dc985f47 from 2 to 1
+6m32s       Normal    SuccessfulCreate          replicaset/resilience-app-556dd99748              Created pod: resilience-app-556dd99748-vvcbg
+6m32s       Normal    SuccessfulDelete          replicaset/resilience-app-68dc985f47              Deleted pod: resilience-app-68dc985f47-spnwf
+6m32s       Normal    ScalingReplicaSet         deployment/resilience-app                         Scaled up replica set resilience-app-556dd99748 from 1 to 2
+6m31s       Normal    Pulled                    pod/resilience-app-556dd99748-vvcbg               Container image "nginx:1.27-alpine" already present on machine
+6m31s       Normal    Created                   pod/resilience-app-556dd99748-vvcbg               Created container: nginx
+6m31s       Normal    Started                   pod/resilience-app-556dd99748-vvcbg               Started container nginx
+6m25s       Normal    SuccessfulDelete          replicaset/resilience-app-68dc985f47              Deleted pod: resilience-app-68dc985f47-5lhrh
+6m25s       Normal    ScalingReplicaSet         deployment/resilience-app                         Scaled down replica set resilience-app-68dc985f47 from 1 to 0
+6m25s       Normal    Killing                   pod/resilience-app-68dc985f47-5lhrh               Stopping container nginx
+5m13s       Normal    NodeSchedulable           node/ip-10-0-11-229.ap-south-1.compute.internal   Node ip-10-0-11-229.ap-south-1.compute.internal status is now: NodeSchedulable
+5m12s       Normal    Scheduled                 pod/resilience-app-65b54c6bfc-8wrd6               Successfully assigned default/resilience-app-65b54c6bfc-8wrd6 to ip-10-0-11-229.ap-south-1.compute.internal
+5m12s       Normal    SuccessfulCreate          replicaset/resilience-app-65b54c6bfc              Created pod: resilience-app-65b54c6bfc-8wrd6
+5m12s       Normal    ScalingReplicaSet         deployment/resilience-app                         Scaled up replica set resilience-app-65b54c6bfc from 0 to 1
+5m11s       Normal    Started                   pod/resilience-app-65b54c6bfc-8wrd6               Started container nginx
+5m11s       Normal    Pulled                    pod/resilience-app-65b54c6bfc-8wrd6               Container image "nginx:1.27-alpine" already present on machine
+5m11s       Normal    Created                   pod/resilience-app-65b54c6bfc-8wrd6               Created container: nginx
+5m5s        Normal    SuccessfulDelete          replicaset/resilience-app-556dd99748              Deleted pod: resilience-app-556dd99748-fgdk2
+5m5s        Normal    Scheduled                 pod/resilience-app-65b54c6bfc-xtlrx               Successfully assigned default/resilience-app-65b54c6bfc-xtlrx to ip-10-0-11-229.ap-south-1.compute.internal
+5m5s        Normal    Killing                   pod/resilience-app-556dd99748-fgdk2               Stopping container nginx
+5m5s        Normal    SuccessfulCreate          replicaset/resilience-app-65b54c6bfc              Created pod: resilience-app-65b54c6bfc-xtlrx
+5m4s        Normal    Started                   pod/resilience-app-65b54c6bfc-xtlrx               Started container nginx
+5m4s        Normal    Created                   pod/resilience-app-65b54c6bfc-xtlrx               Created container: nginx
+5m4s        Normal    Pulled                    pod/resilience-app-65b54c6bfc-xtlrx               Container image "nginx:1.27-alpine" already present on machine
+4m58s       Normal    ScalingReplicaSet         deployment/resilience-app                         (combined from similar events): Scaled down replica set resilience-app-556dd99748 from 1 to 0
+4m58s       Normal    SuccessfulDelete          replicaset/resilience-app-556dd99748              Deleted pod: resilience-app-556dd99748-vvcbg
+4m58s       Normal    Killing                   pod/resilience-app-556dd99748-vvcbg               Stopping container nginx

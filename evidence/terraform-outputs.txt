@@ -1,0 +1,14 @@
+eks_cluster_endpoint = "https://BEB008C1478BD1993637756E9AF667E0.gr7.ap-south-1.eks.amazonaws.com"
+eks_cluster_name = "eks-resiliency-cluster"
+nat_gateway_ids = [
+  "nat-0717aa4074b316130",
+]
+private_subnet_ids = [
+  "subnet-0d130f5346c9d3f9a",
+  "subnet-0cae8bb6cd730d085",
+]
+public_subnet_ids = [
+  "subnet-0128874eed56c6df2",
+  "subnet-08005eedc0702a0db",
+]
+vpc_id = "vpc-09b12fb1f374152a2"
